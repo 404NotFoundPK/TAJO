@@ -10,4 +10,4 @@ addons:
         token: "bd566dfd9c136bd9c18eb44bbbb9c3ae20d53181"
   
 script:
-    - mvn clean verify -e org.jacoco:jacoco-maven-plugin:prepare-agent sonar:sonar -Dsonar.projectKey=404notfoundpk_ISW2-TAJO
+    - mvn clean verify -e org.jacoco:jacoco-maven-plugin:prepare-agent sonar:sonar -Dsonar.projectKey=404NotFoundPK_TAJO
